@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+*{
+  padding:0;
+  margin:0;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 1px;
+  color:black;
+}
+.hoverErrorLogin{
+  cursor: pointer;
+}
+.navbar{
+  box-shadow: none !important;
+}
+
+.blackBox{
+  background-color:rgb(0, 0, 0, 0);
+  border-radius: 1%;
+  width: 100%;
+  height: 65%;
+  position: absolute;
+  top: 0;
+  z-index: 10;
+  transition: 500ms;
+}
+
+.blackBox{
+  background-color:rgb(0, 0, 0, 0);
+  border-radius: 1%;
+  width: 100%;
+  height: 74%;
+  position: absolute;
+  top: 0;
+  z-index: 10;
+  transition: 500ms;
+}
+
+.blackBox:hover{
+  background-color:rgb(0, 0, 0, 0.363);
+}
+
+.buyNowButton{
+  display: none;
+}
+
+.blackBox:hover .buyNowButton{
+  border: 2px solid white;
+  display: block;
+  color: white;
+  background-color: transparent;
+  font-size: 20px;
+  transition: 700ms;
+}
+
+.blackBox:hover .buyNowButton:hover{
+  background-color: white;
+  color:#6eab63;
+  border: 2px solid #6eab63;
+}
+
+.insideButton{
+  background-color: transparent;
+  align-items: center;
+  border:none;
+}
+
+
+.pageDetail{
+  padding-top: 100px;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* 404 page */
+#notfound {
+  position: relative;
+  height: 100vh;
+}
+
+#notfound .notfound {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.notfound {
+  max-width: 767px;
+  width: 100%;
+  line-height: 1.4;
+  text-align: center;
+  padding: 15px;
+}
+
+.notfound .notfound-404 {
+  position: relative;
+  height: 220px;
+}
+
+.notfound .notfound-404 h1 {
+  font-family: 'Raleway', sans-serif;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 186px;
+  font-weight: 200;
+  margin: 0px;
+  background: linear-gradient(130deg, #f5f0f0, #b68985);
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  text-transform: uppercase;
+}
+
+.notfound h2 {
+  font-family: 'Kanit', sans-serif;
+  font-size: 33px;
+  font-weight: 200;
+  text-transform: uppercase;
+  margin-top: 0px;
+  margin-bottom: 25px;
+  letter-spacing: 3px;
+}
+
+
+.notfound p {
+  font-family: 'Kanit', sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+  margin-top: 0px;
+  margin-bottom: 25px;
+}
+
+
+.notfound a {
+  font-family: 'Kanit', sans-serif;
+  color: #a16a60;
+  font-weight: 200;
+  text-decoration: none;
+  border-bottom: 1px dashed #ff6f68;
+  border-radius: 2px;
+}
+
+@media only screen and (max-width: 480px) {
+  .notfound .notfound-404 {
+    position: relative;
+    height: 168px;
+  }
+
+  .notfound .notfound-404 h1 {
+    font-size: 142px;
+  }
+
+  .notfound h2 {
+    font-size: 22px;
+  }
+}
+
+/* 404 page */
+
+

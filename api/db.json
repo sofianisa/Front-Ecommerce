@@ -1,0 +1,187 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "admin",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "username": "user1",
+      "password": "123",
+      "role": "user"
+    },
+    {
+      "username": "aku",
+      "password": "321",
+      "role": "user",
+      "id": 3
+    }
+  ],
+  "products": [
+    {
+      "name": "Cat",
+      "image": "https://www.ardeaprints.com/p/172/toyger-cat-studio-15300700.jpg",
+      "stock": 2,
+      "categoryId": 1,
+      "price": 2500000,
+      "description": "pleaseee adopt me...?",
+      "id": 1
+    },
+    {
+      "name": "Dog",
+      "image": "https://images.squarespace-cdn.com/content/v1/56eb1bfd1bbee0b5b5431d8f/1460004706110-XK039PQRQJ7J5UVVGHH4/ke17ZwdGBToddI8pDm48kH3XSE01XxDS2YsY6svyDfF7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmIcgCcVKAKSiS8jwmaTEETHyh7PFY-pskGcFhdeFNIxh5qwtATD4Ih4szmjBnmdim/Screen+Shot+2016-04-06+at+11.52.52+PM.png",
+      "stock": 3,
+      "categoryId": 1,
+      "price": 5000000,
+      "description": "do you want adopt me?",
+      "id": 2
+    },
+    {
+      "name": "Rabbit",
+      "image": "https://townsquare.media/site/701/files/2019/07/RS27838_GettyImages-875067688-scr.jpg?w=980&q=75",
+      "stock": 4,
+      "categoryId": 1,
+      "price": 1000000,
+      "description": "im your bunnys......",
+      "id": 3
+    },
+    {
+      "name": "Fish",
+      "image": "https://ae01.alicdn.com/kf/HTB1enp4KFXXXXccXFXXq6xXFXXXc/Arwana-emas-67-CM-warna-merah-mewah-ikan-besar-kartun-mewah-mainan-Boneka-binatang-bantal-mainan.jpg_q50.jpg",
+      "stock": 5,
+      "categoryId": 1,
+      "price": 2000000,
+      "description": "hi....im fish in a tank",
+      "id": 4
+    },
+    {
+      "name": "Cat Foods",
+      "image": "https://cdn.shopify.com/s/files/1/0145/8015/4422/products/country-game-for-cats-all-life-stages-1_1_1024x1024_79507aa4-10e6-4cce-81fc-daf851cc58d6_2000x.jpg?v=1583165212",
+      "stock": 20,
+      "categoryId": 2,
+      "price": 250000,
+      "description": "Good for all types cats",
+      "id": 5
+    },
+    {
+      "name": "Dog Foods",
+      "image": "https://atlas-content-cdn.pixelsquid.com/stock-images/dog-food-WyXPxL3-600.jpg",
+      "stock": 20,
+      "categoryId": 2,
+      "price": 300000,
+      "description": "Good for all types dogs",
+      "id": 6
+    },
+    {
+      "name": "Rabbit Foods",
+      "image": "https://www.petstock.com.au/images/cache/product_zoom/images/products/5cda4185db04e6.26903045.jpeg",
+      "stock": 30,
+      "categoryId": 2,
+      "price": 100000,
+      "description": "Good for all types Rabbits",
+      "id": 7
+    },
+    {
+      "name": "Fish Foods",
+      "image": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full/MTA-2208442/takari-fish-food_cp-petfood-takari-mix-1-mm-fish-food--5-pcs---100-g-_full04.jpg",
+      "stock": 30,
+      "categoryId": 2,
+      "price": 100000,
+      "description": "Good for all types Fish",
+      "id": 8
+    },
+    {
+      "name": "Toys",
+      "image": "https://cf.shopee.co.id/file/33da445e0a566616e5e8b5d69734650e",
+      "stock": 5,
+      "categoryId": 3,
+      "price": 50000,
+      "description": "Cute Toys in Here",
+      "id": 9
+    },
+    {
+      "name": "Pet Necklaces",
+      "image": "https://ecs7.tokopedia.net/img/cache/700/product-1/2020/1/12/batch-upload/batch-upload_1a8ddd4d-92f1-45c8-84e7-a3dda6893c33",
+      "stock": 40,
+      "categoryId": 3,
+      "price": 20000,
+      "description": "Necklaces for any type animals",
+      "id": 10
+    },
+    {
+      "name": "Animals Bag",
+      "image": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//97/MTA-3884091/oem_tas-ransel-peliharaan-anjing-kucing-transparent-astronot-capsule_full06.jpg",
+      "stock": 10,
+      "categoryId": 3,
+      "price": 350000,
+      "description": "Transparent Bag for you pet lovers",
+      "id": 11
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Animals"
+    },
+    {
+      "id": 2,
+      "name": "Foods"
+    },
+    {
+      "id": 3,
+      "name": "Accessoris"
+    }
+  ],
+  "transactions": [
+    {
+      "status": "finished",
+      "userId": 3,
+      "id": 1,
+      "method": "cc",
+      "total": 350000
+    },
+    {
+      "status": "waiting payment",
+      "userId": 3,
+      "id": 2
+    },
+    {
+      "status": "waiting payment",
+      "userId": 2,
+      "id": 3
+    },
+    {
+      "status": "oncart",
+      "userId": 2,
+      "id": 4
+    }
+  ],
+  "transactiondetails": [
+    {
+      "transactionId": 1,
+      "productId": 1,
+      "qty": 1,
+      "id": 1
+    },
+    {
+      "transactionId": 2,
+      "productId": 2,
+      "qty": 1,
+      "id": 2
+    },
+    {
+      "transactionId": 3,
+      "productId": 3,
+      "qty": 1,
+      "id": 3
+    },
+    {
+      "transactionId": 4,
+      "productId": 2,
+      "qty": 1,
+      "id": 4
+    }
+  ]
+}
